@@ -1,0 +1,40 @@
+@media (prefers-color-scheme: light)
+{
+body { text-align: center;}
+h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:4em;
+    color:green;
+}
+
+p 
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:2em;
+    color:red;
+    text-align: left;
+    text-wrap-mode: nowrap;
+}
+}
+@media (prefers-color-scheme: dark)
+{
+body
+{
+    background-color: rgb(74, 74, 74);
+}
+h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:4em;
+    color: cyan;
+}
+
+p 
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:2em;
+    color: orange;
+    text-wrap-mode: nowrap;
+}
+}
